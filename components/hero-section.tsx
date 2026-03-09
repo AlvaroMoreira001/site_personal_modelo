@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { MessageCircle, ArrowRight } from "lucide-react"
 
-const WHATSAPP_NUMBER = "5511999999999"
+const WHATSAPP_NUMBER = "5512982642197"
 const WHATSAPP_MESSAGE = "Olá! Gostaria de saber mais sobre o acompanhamento personalizado."
 
 export function HeroSection() {

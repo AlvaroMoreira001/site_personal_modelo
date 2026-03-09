@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { MessageCircle, ArrowRight } from "lucide-react"
 
-const WHATSAPP_NUMBER = "5511999999999"
+const WHATSAPP_NUMBER = "5512982642197"
 const WHATSAPP_MESSAGE = "Olá! Quero começar minha transformação com acompanhamento personalizado."
 
 export function CTASection() {
