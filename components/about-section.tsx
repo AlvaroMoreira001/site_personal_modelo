@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Award, Users, Target, Dumbbell } from "lucide-react"
+import { asset } from "@/lib/utils"
 
 const credentials = [
   {
@@ -29,7 +30,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
               <Image
-                src="/images/personal-trainer.jpg"
+                src={asset("/images/personal-trainer.jpg")}
                 alt="Personal Trainer"
                 fill
                 className="object-cover"

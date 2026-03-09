@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { MessageCircle, ArrowRight } from "lucide-react"
+import { asset } from "@/lib/utils"
 
 const WHATSAPP_NUMBER = "5512982642197"
 const WHATSAPP_MESSAGE = "Olá! Gostaria de saber mais sobre o acompanhamento personalizado."
@@ -15,7 +16,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-fitness.jpg"
+          src={asset("/images/hero-fitness.jpg")}
           alt="Treino intenso"
           fill
           className="object-cover"

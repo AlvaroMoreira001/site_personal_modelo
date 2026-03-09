@@ -2,25 +2,26 @@
 
 import { useEffect, useState } from "react"
 import Image from "next/image"
+import { asset } from "@/lib/utils"
 
 const transformations = [
   {
     id: 1,
-    image: "/images/transformation-1.jpg",
+    image: asset("/images/transformation-1.jpg"),
     name: "Lucas",
     result: "-12kg em 4 meses",
     description: "Hipertrofia e definição"
   },
   {
     id: 2,
-    image: "/images/transformation-2.jpg",
+    image: asset("/images/transformation-2.jpg"),
     name: "Rafael",
     result: "-18kg em 6 meses",
     description: "Emagrecimento e ganho de massa"
   },
   {
     id: 3,
-    image: "/images/transformation-3.jpg",
+    image: asset("/images/transformation-3.jpg"),
     name: "Camila",
     result: "-10kg em 3 meses",
     description: "Definição e fortalecimento"
